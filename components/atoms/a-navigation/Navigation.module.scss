@@ -1,0 +1,36 @@
+.navItem {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  font-family: var(--font-family);
+  list-style: none;
+  transition: var(--transition);
+}
+
+.icon {
+    color: var(--accent-color)
+}
+
+.navGroup {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--font-size);
+  gap: 0.5rem;
+  padding-inline-start: 0;
+  color: var(--font-color);
+  transition: var(--transition);
+    legend {
+    color: var(--font-fade);
+    margin-bottom: 0.5rem;
+  }
+}
+
+.navGroup::after {
+    background: var(--font-fade);
+    content: '';
+    display: inline-block;
+    height: 1px;
+    margin-top: 0.5rem;
+    width: 100%;
+    transition: var(--transition);
+}

@@ -1,0 +1,26 @@
+.form {
+    align-items: center;
+    background: var(--shade);
+    border-radius: 8px;
+    display: flex;
+    font-family: var(--font-family);
+    gap: 5px;
+    padding: 0.5rem;
+    overflow: hidden;
+}
+
+
+.button,
+.input {
+    align-items: center;
+    background: transparent;
+    border: none;
+    color: var(--font-fade);
+    display: flex;
+    font: inherit;
+    outline: none;
+}
+
+.button {
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.item {
+    color: var(--dropdown-color);
+    
+    label {
+        text-transform: capitalize;
+    }
+}
+
+.radio {
+    display: none;
+}

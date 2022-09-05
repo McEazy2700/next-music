@@ -1,9 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+:root {
+  --font-family: "Josefin Sans", sans-serif;
+  --font-size: 1.2rem;
+  --accent-color: #27AE60;
+  --transition: all 0.3s ease;
+  --border-radius: 10px;
+  --dropdown-color: #f5f6fa;
+}
+
+
+:root .dark {
+  --font-fade: #828282;
+  --shade: #3A3B3B;
+  --shade-darker: hsl(0, 0%, 9%);
+  --shade-border: #252525;
+  --bg: black;
+  --font-color: #fff;
+}
+
+:root .light {
+  --font-fade: #494949;
+  --shade: #acacac;
+  --shade-darker: #616161;
+  --shade-border: #252525;
+  --bg: white;
+  --font-color: #000;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: var(--font-color);
+  background: var(--bg);
 }
 
 a {
@@ -14,7 +45,7 @@ a {
 * {
   box-sizing: border-box;
 }
-
+/* 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -23,4 +54,4 @@ a {
     color: white;
     background: black;
   }
-}
+} */
